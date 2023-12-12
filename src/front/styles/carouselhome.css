@@ -1,0 +1,29 @@
+.carousel-container,.carousel-item{
+    height: 100vh;
+}
+.imagenPortada{
+    height: 100vh;
+}
+.imagenPortada img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit:contain;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    font-family:'Cinzel', serif;
+}
+.description h1{
+    font-size: 100px;
+    opacity: 1 !important;
+  
+}
+.comprarHome{
+    border: 1px solid white;
+    border-radius: 0;
+}
