@@ -21,9 +21,29 @@
 .description h1{
     font-size: 100px;
     opacity: 1 !important;
-  
 }
 .comprarHome{
     border: 1px solid white;
     border-radius: 0;
+    color: white;
+    background-color: black;
+}
+.imagenTrasera{
+    transform: translateX(-160%);
+}
+.imagenTrasera img{
+    opacity: 0.2;
+}
+
+@media (max-width:470px){
+    .imagenTrasera{
+        transform: translateX(-105%);
+    }
+    .tituloPortada{
+        font-size: 60px !important;
+        padding-left: 10px;
+    }
+    .imagenPortada{
+    transform: translateX(-120%);
+    }
 }

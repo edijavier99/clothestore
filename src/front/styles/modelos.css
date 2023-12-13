@@ -36,4 +36,14 @@
     font-weight: bold;
     text-align: center;
   }
+
+  @media (max-width: 470px){
+    .modeloGeneroBoard{
+      padding: 10px !important;
+      flex-direction: column !important;
+    }
+    .chico{
+      margin-bottom: 50px;
+    }
+  }
   

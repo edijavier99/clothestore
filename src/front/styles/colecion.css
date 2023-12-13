@@ -18,3 +18,15 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media (max-width: 480px){
+    .colecionBoard{
+       flex-direction: column !important;
+       width: 90%;
+       padding:0;
+       height: auto !important;
+    }
+    .colecionBoard h1{
+      margin-top: 30px;
+    }
+}
